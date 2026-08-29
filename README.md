@@ -34,20 +34,6 @@ A modern, responsive **Scientific Calculator** built with **HTML, CSS, and JavaS
 
 ---
 
-## 📸 Screenshots
-
-### Scientific Calculator
-
-Add your project screenshot here:
-
-```markdown
-![Scientific Calculator Screenshot](screenshots/calculator.png)
-```
-
-> **Tip:** Create a folder named `screenshots` in your repository and upload your calculator screenshot as `calculator.png`.
-
----
-
 ## 🛠️ Technologies Used
 
 | Technology          | Purpose                                      |
@@ -61,14 +47,13 @@ Add your project screenshot here:
 
 ## 📂 Project Structure
 
-```text
 Scientific-Calculator/
 │
 ├── index.html
 ├── screenshots/
 │   └── calculator.png
 └── README.md
-```
+
 
 ---
 
@@ -78,15 +63,13 @@ Scientific-Calculator/
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/subhajit998-cmd/Scientific-Calculator.git
-```
+
 
 2. Open the project folder:
 
-```bash
 cd Scientific-Calculator
-```
+
 
 3. Open `index.html` in your web browser.
 
@@ -107,7 +90,7 @@ That's it! 🎉
 
 Try the Scientific Calculator online:
 
-**👉 https://subhajit998-cmd.github.io/Scientific-Calculator/**
+**👉 https://subhajit998-cmd.github.io/Scientific_Calculator/
 
 ---
 
@@ -144,21 +127,11 @@ Possible future updates include:
 
 **Subhajit Show**
 
-Computer Science & Engineering Student
+Computer Science & Engineering(Cyber Security) Student
 
 ### Connect With Me
 
 * 💻 GitHub: https://github.com/subhajit998-cmd
-* 🔗 LinkedIn: https://www.linkedin.com/in/subhajit-show-b367213a0
+* 🔗 LinkedIn: https://www.linkedin.com/feed/
 
 ---
-
-## ⭐ Support
-
-If you find this project useful, consider giving the repository a ⭐ on GitHub!
-
----
-
-## 📄 License
-
-This project is open-source and available for learning and educational purposes.
