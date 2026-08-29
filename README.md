@@ -45,17 +45,6 @@ A modern, responsive **Scientific Calculator** built with **HTML, CSS, and JavaS
 
 ---
 
-## 📂 Project Structure
-
-Scientific-Calculator/
-│
-├── index.html
-├── screenshots/
-│   └── calculator.png
-└── README.md
-
-
----
 
 ## 🚀 How to Run
 
@@ -63,7 +52,7 @@ Scientific-Calculator/
 
 1. Clone the repository:
 
-git clone https://github.com/subhajit998-cmd/Scientific-Calculator.git
+git clone https://github.com/subhajit998-cmd/Scientific_Calculator.git
 
 
 2. Open the project folder:
