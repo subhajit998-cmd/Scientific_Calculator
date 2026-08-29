@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+ 
+    <div class="buttons">
+      <!-- Basic controls -->
+      <button class="clear" onclick="clearDisplay()">C</button>
+      <button onclick="deleteLast()">⌫</button>
+      <button onclick="percentage()">%</button>
+      <button class="operator" onclick="appendValue('/')">÷</button>
+ 
+      <!-- Numbers -->
+      <button onclick="appendValue('7')">7</button>
+      <button onclick="appendValue('8')">8</button>
+      <button onclick="appendValue('9')">9</button>
+      <button class="operator" onclick="appendValue('*')">×</button>
+ 
+      <button onclick="appendValue('4')">4</button>
+      <button onclick="appendValue('5')">5</button>
+      <button onclick="appendValue('6')">6</button>
+      <button class="operator" onclick="appendValue('-')">−</button>
+ 
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendValue('2')">2</button>
+      <button onclick="appendValue('3')">3</button>
+      <button class="operator" onclick="appendValue('+')">+</button>
+ 
+      <button class="zero" onclick="appendValue('0')">0</button>
+      <button onclick="appendValue('.')">.</button>
+      <button class="equal" onclick="calculate()">=</button>
+ 
+      <!-- Parentheses -->
+      <button onclick="appendValue('(')">(</button>
+      <button onclick="appendValue(')')">)</button>
+ 
+      <!-- Scientific functions -->
+      <button onclick="appendValue('Math.sin(')">sin</button>
+      <button onclick="appendValue('Math.cos(')">cos</button>
+      <button onclick="appendValue('Math.tan(')">tan</button>
+      <button onclick="appendValue('Math.sqrt(')">√</button>
+ 
+      <button onclick="appendValue('Math.log10(')">log</button>
+      <button onclick="appendValue('Math.log(')">ln</button>
+      <button onclick="appendValue('Math.PI')">π</button>
+      <button onclick="appendValue('Math.E')">e</button>
+ 
+      <!-- Memory functions -->
+      <button onclick="memoryClear()">MC</button>
+      <button onclick="memoryRecall()">MR</button>
+      <button onclick="memoryAdd()">M+</button>
+      <button onclick="memorySubtract()">M-</button>
+    </div>
+ 
+    <!-- Dark mode toggle -->
+    <button id="themeToggle"> Toggle Theme</button>
+ 
+    <!-- History -->
+    <div id="history"></div>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+ 
